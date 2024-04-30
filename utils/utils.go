@@ -9,3 +9,7 @@ func GenerateID() string {
 func RemoveIndex[T any](s []T, index int) []T {
 	return append(s[:index], s[index+1:]...)
 }
+
+func UpdateStruct[T any](s T, params T) {
+
+}
